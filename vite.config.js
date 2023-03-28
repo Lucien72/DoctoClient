@@ -13,7 +13,7 @@ export default defineConfig({
         background_color: "#03A9F4",
         display: "fullscreen",
         scope: "/",
-        start_url: "JE SAIS PAS ",
+        start_url: "/",
         name: "Doctoclient",
         short_name: "DTC",
         description: "DOCTOCLIENT en PWA",
