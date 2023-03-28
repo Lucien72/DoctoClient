@@ -40,6 +40,10 @@ function App() {
     setPassword(e.target.value)
   }
 
+  const calendar = () => {
+    window.open( "data:text/calendar;charset=utf8," +escape("BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Our Company//NONSGML v1.0//EN\nBEGIN:VEVENT\nUID:me@google.com\nDTSTAMP:20120315T170000Z\nATTENDEE;CN=My Self ;RSVP=TRUE:MAILTO:me@gmail.com\nORGANIZER;CN=Me:MAILTO::me@gmail.com\nSUMMARY:Our Meeting Office\nEND:VEVENT\nEND:VCALENDAR"));
+  }
+
   const login = () => {
     signInWithEmailAndPassword(auth, email, password).then(
       (UserResponse) => {
@@ -96,6 +100,7 @@ function App() {
       <p></p>
       <button onClick={() => login()}>Se connecter</button>
       <button onClick={() => logout()}>Se déconnecter</button>
+      <button onClick={() => calendar()}>Event calendar</button>
     </div>
   )
 }
