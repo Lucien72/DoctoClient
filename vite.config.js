@@ -9,13 +9,13 @@ export default defineConfig({
     VitePWA({ 
       registerType: 'autoUpdate',
       manifest: {
-        theme_color: "#7ed321",
-        background_color: "#7ed321",
+        theme_color: "#03A9F4",
+        background_color: "#03A9F4",
         display: "fullscreen",
         scope: "/",
-        start_url: "/https://aesthetic-syrniki-30ca7c.netlify.app",
-        name: "To Do List",
-        short_name: "TDL",
+        start_url: "JE SAIS PAS ",
+        name: "Doctoclient",
+        short_name: "DTC",
         description: "DOCTOCLIENT en PWA",
         icons: [
           {
