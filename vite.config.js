@@ -13,10 +13,10 @@ export default defineConfig({
         background_color: "#7ed321",
         display: "fullscreen",
         scope: "/",
-        start_url: "/https://main--endearing-macaron-3d050c.netlify.app",
+        start_url: "/https://aesthetic-syrniki-30ca7c.netlify.app",
         name: "To Do List",
         short_name: "TDL",
-        description: "une to do List en pwa",
+        description: "DOCTOCLIENT en PWA",
         icons: [
           {
               "src": "/icon-192x192.png",
